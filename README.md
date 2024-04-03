@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+#Welcome to WorkorderCreation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The work-order creation screen includes the following features:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Main Tabs: Two main tabs, "Overview" and "Other". Clicking on the "Other" tab prints "Hello World!".
+2. Expand/Collapsible Feature: Allows users to view more activities or work-items under the Civil package. This feature enables expanding and collapsing sections for better organization.
+3. Selection Checkboxes: Checkboxes against packages or activities to select/deselect all work items. Additionally, checkboxes for individual work items allow users to make specific selections.
+4. Save Selection: Clicking on "Save Selection" opens an overlay to fill further details. The overlay includes:
+    Client dropdown with options A, B, and C.
+    Date of commencement/completion fields to be filled manually with validation on the date format.
+    RFQ code field to be filled manually.
+5. Print Input Data: Upon clicking "Done" after filling in the details, the input data is printed on the console.
+<br> 
+These features provide users with a comprehensive interface for creating work orders, enabling efficient management and organization of tasks.
+// screeshots
+![Screenshot (112)](https://github.com/YogeshRauthan/WorkOrderCreation/assets/157008951/face07a6-4454-42a7-80c0-6f55d90cc0fc)
+![Screenshot (113)](https://github.com/YogeshRauthan/WorkOrderCreation/assets/157008951/7be2de18-7272-4b33-b52f-f76a1bb712e8)
