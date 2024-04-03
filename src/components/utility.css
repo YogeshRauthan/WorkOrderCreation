@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.mx-1 {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.my-1 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.spacebtw {
+    justify-content: space-between;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width20 {
+    width: 20%;
+}

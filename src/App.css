@@ -1,0 +1,32 @@
+.layer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px 10px 0 10px;
+}
+
+.imgandOrder {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.text1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.save {
+  margin: 5px 5px 0 0;
+  padding: 10px 40px;
+  background-color: #00c7c7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(202, 202, 202, 0.5);
+}
+
+.save:hover {
+  background-color: #00abab;
+}
