@@ -13,5 +13,8 @@ The work-order creation screen includes the following features:
 <br> 
 These features provide users with a comprehensive interface for creating work orders, enabling efficient management and organization of tasks.
 // screeshots
-![Screenshot (112)](https://github.com/YogeshRauthan/WorkOrderCreation/assets/157008951/face07a6-4454-42a7-80c0-6f55d90cc0fc)
-![Screenshot (113)](https://github.com/YogeshRauthan/WorkOrderCreation/assets/157008951/7be2de18-7272-4b33-b52f-f76a1bb712e8)
+
+![Screenshot (112)](https://github.com/YogeshRauthan/WorkOrderCreation/assets/157008951/9977fedf-aae3-428f-8ee5-05eabab87d79)
+//
+
+![Screenshot (113)](https://github.com/YogeshRauthan/WorkOrderCreation/assets/157008951/bd926dda-ace7-4af4-970f-3b8f4388ddc0)
